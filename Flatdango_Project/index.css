@@ -9,18 +9,11 @@ body{
 #homeScreen{
     background-color: green;
     width: 650px;
-    display: grid;
-    place-items: centre;
-    position: absolute;
-    top: 70%;
-    left: 47%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    justify-content: center;
 
 }
 main{
     display: flex;
+    padding: 20px;
     
 }
 #heading{
@@ -29,12 +22,12 @@ main{
     background-color:  rgb(59, 58, 58);
     
 }
-#details{
-    position: absolute;
-    top: 75%;
-    left: 86%;
-    transform: translate(-50%, -50%);
+.details{
+   margin-top: 0px;
     padding: 20px;
-    background-color:  rgb(59, 58, 58);
+    
 
+}
+#menu{
+    padding: 20px;
 }
